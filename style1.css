@@ -1,0 +1,57 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+body{
+
+min-height: 100vh;
+background: black;
+overflow: hidden;
+}
+
+span{
+position:fixed;
+pointer-events:none;
+filter:drop-shadow(10px -20px 12px rgba(237, 15, 156, 0.5));
+animation: fadeInOut 0s linear;
+}
+
+@keyframes fadeInOut{
+10%,100% {
+
+    opacity: 0;
+}
+30%,80%
+
+{
+    opacity: 0;
+
+}
+
+}
+
+
+span::before  {
+
+content: "";
+position: absolute;
+width:100px;
+height:100px;
+background-image:url(heart.jpg) ;
+background-size: cover;
+animation: moveShape 2s linear;
+}
+@keyframes moveShape {
+0%
+{
+transform: translate(0px) rotate(0deg);
+}
+100%{
+    transform:translate(300px) rotate(390deg)   ;
+}
+
+}
+
