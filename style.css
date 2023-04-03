@@ -1,0 +1,70 @@
+
+    /*font family used */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,900&family=Teko&display=swap');
+                     /*univers selector */    
+* {
+margin:3px;
+padding:0;
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+
+}
+body{
+width:100%;
+height:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+background:rgb(221, 201, 201);
+
+}
+
+.calculator{
+  width:300px;
+   height:410px; 
+border:1px solid rgb(20, 19, 19);
+padding:18px;
+border-radius: 16px;
+box-shadow: 0px 0px 10px 10px rgb(8, 12, 13,0.6);
+background-color:rgb(52, 46, 46) ;
+}
+input {
+width:100%;
+height:15%;
+border: none;
+padding: 10px;
+margin:3px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 5px ;
+text-align: right;
+font-size: 20px;
+cursor: pointer;
+background:rgb(210, 220, 224,) ;
+
+}
+input:hover{
+    background:rgb(210, 220, 224,0.2616) ;
+color: white;
+}
+
+.button{
+font-size:28px;
+padding:10px;
+margin:0px;
+width:61px;
+height:61px;
+border-radius: 15px;
+cursor: pointer;
+color:aliceblue;
+background: black;
+box-shadow: 0px 0px 4px 2px ;
+}
+.button:hover{
+background: green;
+}
+                            /* btn color orange*/ 
+.x{
+
+    background-color: orange;
+}
